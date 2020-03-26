@@ -1,16 +1,12 @@
 
 
 $(document).ready(function() {
-
-
-  $("form#dating").submit(function(event) {
-    
+  $("form#dating").submit(function(event) {    
     var gender = $("select#gender").val();
     var height = $("select#height").val();
     var intelligence = $("select#intelligence").val();
     var yourCelebrity = " ";
 
-    
     // if (gender === "female") { 
     //   if (height === 'tall') {
     //     if (intelligence === 'smart') {
